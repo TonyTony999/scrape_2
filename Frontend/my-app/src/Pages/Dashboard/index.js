@@ -454,7 +454,7 @@ class DashBoard extends Component {
                         </Form>
 
                         <div id="main_banner">{
-                            this.state.array.length !== 0 ? <img id="random_gallery_img" src={this.state.randomImg}></img> : ""
+                            this.state.array && this.state.array.length !== 0 ? <img id="random_gallery_img" src={this.state.randomImg}></img> : ""
                         }
                         </div>
 
