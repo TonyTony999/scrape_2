@@ -4,7 +4,7 @@
     flex-direction:column;
     height:800px;
     width:100%;
-    background-color: aqua;
+    background-color:rgb(230, 227, 227);
    /* background:url("https://www.expatica.com/app/uploads/sites/6/2017/05/selling-a-car-1920x1080.jpg");*/
     /*background-size: cover;*/
    /* background-repeat: no-repeat;*/
@@ -15,8 +15,8 @@
 }
 
 .secondary-container{
-/*background-color:rgb(255, 255, 255);*/
-opacity: 70%;
+background-color: rgb(130, 130, 130);
+opacity: 5%;
 display:flex;
 flex-direction:column;
 align-content: center;
@@ -24,7 +24,7 @@ justify-content:center ;
 height:400px;
 width:60%;
 border-radius: 2%;
-
+color: blueviolet;
 }
 
 .form-group{
