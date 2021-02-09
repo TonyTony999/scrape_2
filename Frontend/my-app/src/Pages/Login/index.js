@@ -26,7 +26,7 @@ export default function Login({ history }) {
     <>
       <div className="container1">
         <h1 style={{ textAlign: "center" }}>REVENTA CARROS </h1>
-        <div className="secondary-container">
+        <div className="secondary-container_2">
           <Form onSubmit={handleSubmit}>
             <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
               <Label for="email" className="mr-sm-2">Correo</Label>
