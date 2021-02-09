@@ -17,7 +17,8 @@ mongoose.connect(MONGO_URL, {useNewUrlParser:true,useUnifiedTopology:true })
 
 app.use(cors())
 app.use(express.json())
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'Frontend/my-app/build')));
+app.get('*', (req, res) => { res.sendFile(path.join(__dirname + '/Frontend/my-app/build/index.html')); });
 
 //app.use(express.static(path.join(__dirname ,'/public')))
 
