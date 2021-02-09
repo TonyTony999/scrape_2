@@ -20,8 +20,7 @@ export default function Routes() {
                 <Route path="/dashboard/:marca?" exact component={DashBoard} />
                 <Route path="/car/:car_id?" exact component={singleCar} />
                 <Route path="/my-account" exact component={myAccount}/>
-                <Route path="/favourites" exact component={misFavoritos}/>
-                <Route path="https://my-car-app-2.herokuapp.com/" exact component={Register} />
+                <Route path="/favourites" exact component={misFavoritos}/>             
 
             </Switch>
         </BrowserRouter>
