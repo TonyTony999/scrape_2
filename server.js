@@ -8,8 +8,8 @@ const path =require("path")
 
 require("dotenv").config()
 
-const HOST=process.env.HOST
-const PORT=process.env.PORT
+//const HOST=process.env.HOST
+const PORT=process.env.PORT || 5000;
 const MONGO_URL=process.env.MONGO_URL
 
 
