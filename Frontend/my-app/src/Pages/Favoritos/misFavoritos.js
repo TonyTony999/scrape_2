@@ -103,22 +103,22 @@ class misFavoritos extends Component {
         <div className="contain">
           <div className="navbar">
             <div id="left_div">
-              <a href="http://localhost:3000/dashboard">
+              <a href="https://my-car-app-2.herokuapp.com/dashboard">
                 <img id="auto_icon" src={require("../../Images/car_top_suv_auto-512.png")}></img>
               </a>
             </div>
             <div id="right_div">
               <h6 id="user-name">Bienvendo {this.state.user.firstName}</h6>
               <div id="circular_profile_pic">
-                <a href="http://localhost:3000/my-account" target="_blank">
+                <a href="https://my-car-app-2.herokuapp.com/my-account" target="_blank">
                   <img id="car_profile" src={require("../../Images/car_profile.jpg")} ></img>
                 </a>
 
               </div>
               <div id="dropdown_menu">
-                <a id="mi_cuenta" href="http://localhost:3000/my-account" target="_blank">Mi Cuenta</a>
-                <a id="log_out" href="http://localhost:3000/login">Cerrar Sesión y Guardar Favoritos</a>
-                <a id="favoritos" href="http://localhost:3000/favourites">Mis Favoritos</a>
+                <a id="mi_cuenta" href="https://my-car-app-2.herokuapp.com/my-account" target="_blank">Mi Cuenta</a>
+                <a id="log_out" href="https://my-car-app-2.herokuapp.com/login">Cerrar Sesión y Guardar Favoritos</a>
+                <a id="favoritos" href="https://my-car-app-2.herokuapp.com/favourites">Mis Favoritos</a>
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@ class misFavoritos extends Component {
                   
                      <div className="favorites_individual" key={`favorites_${index}`}>
                       <div className="favorite_element" id="favorite_img_container">  
-                      <a href={`http://localhost:3000/car/${element[0]._id}`} target="_blank">
+                      <a href={`https://my-car-app-2.herokuapp.com/car/${element[0]._id}`} target="_blank">
                         <img src={element[0].img}></img> </a> </div>
                       <div className="favorite_element">{element[0].marca.toUpperCase()}</div>
                       <div className="favorite_element">{element[0].year}</div>
