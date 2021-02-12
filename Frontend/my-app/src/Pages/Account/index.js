@@ -34,7 +34,7 @@ class myAccount extends Component {
             <div className="contain">
                 <div className="navbar">
                     <div id="left_div">
-                        <a href="https://my-car-app-2.herokuapp.com/dashboard">
+                        <a href="https://my-car-app-2.herokuapp.com/dashboard" target="_blank">
                             <img id="auto_icon" src={require("../../Images/car_top_suv_auto-512.png")}></img>
                         </a>
                     </div>
