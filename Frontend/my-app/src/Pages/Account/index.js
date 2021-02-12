@@ -34,14 +34,14 @@ class myAccount extends Component {
             <div className="contain">
                 <div className="navbar">
                     <div id="left_div">
-                        <a href="http://localhost:3000/dashboard">
+                        <a href="https://my-car-app-2.herokuapp.com/dashboard">
                             <img id="auto_icon" src={require("../../Images/car_top_suv_auto-512.png")}></img>
                         </a>
                     </div>
                     <div id="right_div">
                         <h6 id="user-name">Bienvendo {this.state.user.firstName}</h6>
                         <div id="circular_profile_pic">
-                            <a href="http://localhost:3000/my-account" target="_blank">
+                            <a href="https://my-car-app-2.herokuapp.com/my-account" target="_blank">
                                 <img id="car_profile" src={require("../../Images/car_profile.jpg")} ></img>
                             </a>
                         </div>
