@@ -501,7 +501,7 @@ class DashBoard extends Component {
                                             </div>
                                         </div>
                                         <div className="gallery-container">
-                                            <a href={`https://my-car-app-2.herokuapp.com/car/${element._id}`} target="_blank"><img src={element.img}></img></a>
+                                            <a href={`https://my-car-app-2.herokuapp.com/carro/${element._id}`} target="_blank"><img src={element.img}></img></a>
                                         </div>
                                         <ul>
                                             <li><strong>Precio</strong> {element.price}</li>
