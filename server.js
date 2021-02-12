@@ -4,7 +4,6 @@ const app=express()
 const routes=require("./routes")
 const cors=require("cors")
 const path =require("path")
-//const timeout = require('connect-timeout'); //express v4
 
 require("dotenv").config()
 
