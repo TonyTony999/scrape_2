@@ -20,7 +20,8 @@ export default function Routes() {
                 <Route path="/dashboard/:marca?" exact component={DashBoard} />
                 <Route path="/car/:car_id?" exact component={singleCar} />
                 <Route path="/my-account" exact component={myAccount}/>
-                <Route path="/favourites" exact component={misFavoritos}/>             
+                <Route path="/favourites" exact component={misFavoritos}/> 
+                <Route path="/" exact component={Login}/>             
 
             </Switch>
         </BrowserRouter>
